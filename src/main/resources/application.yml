@@ -1,21 +1,23 @@
 knife4j:
   enable: true
   openapi:
-    description: v-worker测试
+    description: Groot_worker测试
     group:
       default:
         api-rule: package
         api-rule-resources:
           - com.itheima.test.controller
         group-name: default
-    title: v-worker测试
+    title: Groot_worker测试
     version: v1.0.0
+    url: hello
+
   setting:
     enable-document-manage: false
     enable-footer-custom: true
     enable-group: false
     enable-swagger-models: false
-    footer-custom-content: v-worker测试
+    footer-custom-content: Groot-worker测试
 spring:
   mvc:
     pathmatch:
