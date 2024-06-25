@@ -1,0 +1,32 @@
+knife4j:
+  enable: true
+  openapi:
+    description: v-worker测试
+    group:
+      default:
+        api-rule: package
+        api-rule-resources:
+          - com.itheima.test.controller
+        group-name: default
+    title: v-worker测试
+    version: v1.0.0
+  setting:
+    enable-document-manage: false
+    enable-footer-custom: true
+    enable-group: false
+    enable-swagger-models: false
+    footer-custom-content: v-worker测试
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+#  redis:
+#    database: 0
+#    host: localhost
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        max-wait: -1ms
+#        min-idle: 0
+#    port: 6379

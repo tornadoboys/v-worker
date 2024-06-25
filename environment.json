@@ -1,0 +1,8 @@
+{"py_environment":"F:\\program files\\Anaconda3\\envs\\environment_name\\python.exe",
+  "py_address":"E:\\Workdata\\SpringBoot\\ToolCtr\\src\\main\\resources\\py\\tool_test.py",
+  "input_paths":["E:\\Workdata\\SpringBoot\\ToolCtr\\src\\main\\resources\\py\\gf2-hz-xs-238.tif","E:\\Workdata\\SpringBoot\\ToolCtr\\src\\main\\resources\\py\\another-file.tif","E:\\Workdata\\SpringBoot\\ToolCtr\\src\\main\\resources\\py\\yet-another-file.tif"],"out_path":"E:\\Workdata\\SpringBoot\\ToolCtr\\src\\main\\resources\\py",
+  "test_paths":["E:\\Workdata\\SpringBoot\\src\\main\\resources\\py\\file_name.shp"],
+  "Shp_paths":["E:\\Workdata\\SpringBoot\\src\\main\\resources\\py\\file_name.shp"],
+  "etc2_paths":[],
+  "etc1_paths":[]
+}
